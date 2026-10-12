@@ -1,9 +1,9 @@
 # ArtCraft Launcher assets
 
-Pictures that [ArtCraft Launcher](https://github.com/storytold/craft-launcher) downloads at run
+Pictures that [ArtCraft Launcher](https://github.com/MAKRIA-CRAFT/craft-launcher) downloads at run
 time instead of bundling: today, the screenshots on each Craft App's details page.
 
-The launcher reads `https://raw.githubusercontent.com/storytold/craft-launcher-assets/<tag>/<app>/<key>.jpg`
+The launcher reads `https://raw.githubusercontent.com/MAKRIA-CRAFT/craft-launcher-assets/<tag>/<app>/<key>.jpg`
 at a pinned tag (`SCREENSHOTS_REV` in `crates/core/src/details.rs`), and keeps what it downloads
 under that tag, so a published tag must never change.
 
